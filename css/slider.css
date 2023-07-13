@@ -1,0 +1,95 @@
+#slider{
+    padding: 100px 100px;
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background: url("../assets/img/aosb-slider.png")no-repeat;
+}
+#slider .content{
+    z-index: 888;
+    color: var(--main-color);
+    width: 70%;
+    margin-top: 10px;
+}
+#slider .content h1{
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-top: 0px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#slider .content p{
+    margin-bottom: 65px;
+}
+#slider .content a{
+    background: #fff;
+    padding: 15px 35px;
+    color: var(--main-color);
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 2px;
+}
+#custom-login input{
+    background-color: #fff;
+    color: var(--main-color);
+    border: none;
+    padding: .3em;
+    font-weight: 500;
+    border-radius: 2px;   
+}
+#slider .content a:hover,
+#custom-login input:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+#slider .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+#slider .media-icons a{
+    color: var(--main-color);
+    font-size: 1.6em;
+    transition: 0.3s ease;
+}
+#slider .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+#slider .media-icons a:hover{
+    transform: scale(1.5);
+}
+
+@media (max-width:1040px){
+    #slider{
+        padding: 100px 40px;
+    }
+    #slider .media-icons{
+        right: 15px;
+    }
+    .menu-btn{
+        background: url("../assets/img/menu.png")no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .menu-btn.active{
+        z-index: 999;
+        background: url("../assets/img/close.png")no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+}

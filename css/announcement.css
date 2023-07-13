@@ -1,0 +1,29 @@
+#announcement{
+    display: flex;
+    background: var(--main-color);
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+.ann-header{
+    color: #fff;
+    font-size: 1.5em;
+}
+.ann-subtitles{
+    background: #fff;
+    width: 150vh;
+    min-height: 2.5em;
+    
+}
+.ann-subtitles marquee div{
+    display: flex;
+    gap: 7em;
+    padding:0.75em;
+}
+.ann-subtitles marquee div span a{
+    font-size: 1.25em;
+    color: #000;
+}
+.ann-subtitles marquee div span a:hover{
+    color: red;
+}

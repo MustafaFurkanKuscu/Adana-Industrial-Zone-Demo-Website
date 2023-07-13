@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/announcement.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/history.css">
+    <link rel="stylesheet" href="css/statistics.css">
+    <link rel="stylesheet" href="css/firms.css">
+    <link rel="stylesheet" href="css/fast-access.css">
+    <link rel="stylesheet" href="css/emergency.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html" class="logo"><img src="assets/img/aosb-logo.png" alt="aosb-logo"></a>
+
+        <!-- <input type="checkbox" name="menu-bar" id="menu-bar">
+        <label for="menu-bar">Menu</label> -->
+        <div class="menu-btn"></div>
+        <nav class="navbar passive ">
+            <ul>
+                <li><a href="#">Kurumsal</a></li>
+                <li><a href="#">Hizmetler</a></li>
+                <li><a href="#">Firmalar</a>
+                    <ul>
+                        <li><a href="#">AOSB Firmaları</a></li>
+                        <li><a href="#">İSO 500 AOSB Firmaları</a></li>
+                        <li><a href="#">İSO İkinci 500 AOSB Firmaları</a></li>
+                        <li><a href="#">Türkiye İhracatçılar Birliği İlk 1000 Listesi</a></li>
+                        <li><a href="#">Bölgemizde Bulunan Ar-Ge Merkezleri</a></li>
+                        <li><a href="#">Bölgemizde Bulunan Tasarım Merkezleri</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Mevzuat</a></li>
+                <li><a href="#">Fark Yaratanlar</a></li>
+                <li><a href="#">Haber</a></li>
+                <li><a href="#">Duyuru</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="slider">
+        <div class="content">
+            <div id="custom-login">
+                <input class=".custom-button" type="submit" value="Proje Destek">
+                <input class=".custom-button" type="submit" value="Sanayici Portalı">
+            </div>
+            
+            <p></p>
+            <h1>ADANA'NIN SANAYİ MERKEZİ</h1>
+            <p></p>
+            <a href="#">Videoyu İzle</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <section id="announcement">
+        <div class="ann-header">
+            <h2>DUYURULAR</h2>
+        </div>
+        <div class="ann-subtitles">
+            <marquee direction="left" behavior="scroll" Scrollamount=10>
+                <div>
+                    <span><a href="#">Duyuru1</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru2</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru3</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru4</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru5</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru6</a></span>
+                    <span> | </span>
+                    <span><a href="#">Duyuru7</a></span>
+                    <span> | </span>
+                </div>
+            </marquee>
+        </div>
+
+
+
+    </section>
+
+    <!-- <section id="news">
+        <div class="container">
+            <div class="card">
+                <img src="assets/img/haber1.png" alt="">
+                <div class="intro">
+                    <h1>Uraloğlu</h1>
+                    <p>AOSB'de bakan Uraloğlu'nu mutlu eden veriler</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/haber2.png" alt="">
+                <div class="intro">
+                    <h1>Bekir Sütcü</h1>
+                    <p>Bekir Sütcü OSBÜK başkan vekilliğine yeniden seçildi</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/haber3.png" alt="">
+                <div class="intro">
+                    <h1>Bekir Sütcü</h1>
+                    <p>Bekir Sütcü OSBÜK başkan vekilliğine yeniden seçildi</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <h1 class="statistic-header">AOSB Haberler</h1>
+    <section id="deneme">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+            space-between="30" free-mode="true">
+            <swiper-slide><img src="assets/img/haber1.png" alt=""><p>Haber Detayı 1</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber2.png" alt=""><p>Haber Detayı 2</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber3.png" alt=""><p>Haber Detayı 3</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber1.png" alt=""><p>Haber Detayı 4</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber2.png" alt=""><p>Haber Detayı 5</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber3.png" alt=""><p>Haber Detayı 6</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber1.png" alt=""><p>Haber Detayı 7</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber2.png" alt=""><p>Haber Detayı 8</p></swiper-slide>
+            <swiper-slide><img src="assets/img/haber3.png" alt=""><p>Haber Detayı 9</p></swiper-slide>
+        </swiper-container>
+    </section>
+    <div class="news-button">
+        <i class="fa-solid fa-newspaper"></i>
+        <span>Tüm haberlere göz atın</span>
+    </div>
+
+    <section id="tranding">
+        <div class="container">
+            <h3 class="text-center section-subheading"></h3>
+            <h1 class="text-center section-heading">Tarihte AOSB</h1>
+        </div>
+        <div class="container">
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="assets/img/haber1.png" alt="">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">1990</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">
+                                    AOSB kuruldu
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+
+                </div>
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <!-- <i class="fa-solid fa-angle-left"></i> -->
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <!-- <i class="fa-solid fa-angle-right"></i> -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="statistic-header">Rakamlarla AOSB</h1>
+    <section id="statistics">
+
+        <div class="sta-list">
+            <div class="sta-card">
+                <img src="assets/icon/map.png" alt="">
+                <p>2,290 ha</p>
+                <p>Toplam Alan</p>
+            </div>
+            <div class="sta-card">
+                <img src="assets/icon/graph.png" alt="">
+                <p>%100</p>
+                <p>Doluluk Oranı</p>
+            </div>
+            <div class="sta-card">
+                <img src="assets/icon/enterprise.png" alt="">
+                <p>478</p>
+                <p>İşletme Sayısı</p>
+            </div>
+            <div class="sta-card">
+                <img src="assets/icon/trade.png" alt="">
+                <p>1,5 milyar USD</p>
+                <p>Dış Ticaret Hacmi</p>
+            </div>
+            <div class="sta-card">
+                <img src="assets/icon/group.png" alt="">
+                <p>38881 kişi</p>
+                <p>İstihdam</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="firms">
+        <h1 class="statistic-header">AOSB Katılımcı Firmalar</h1>
+        <input type="text" placeholder="AOSB firmalarını arayın" name="search" id="firm-search">
+        <input type="button" class="firm-button" value="Firma Listesi">
+    </section>
+
+    <section id="fast-access">
+        <h1 id="fast-access-header">Hızlı Erişim</h1>
+        <div class="access">
+            <div class="access-card">
+                <img src="assets/icon/map.png" alt="">
+                <span>YERLEŞİM PLANI</span>
+            </div>
+            <div class="access-card">
+                <img src="assets/icon/plug.png" alt="">
+                <span>LİSANSSIZ ÜRETİM</span>
+            </div>
+            <div class="access-card">
+                <img src="assets/icon/bar-chart.png" alt="">
+                <span>TÜKETİMLERİMİZ</span>
+            </div>
+            <div class="access-card">
+                <img src="assets/icon/land.png" alt="">
+                <span>ARSA İLANLARI</span>
+            </div>
+            <div class="access-card">
+                <img src="assets/icon/ask.png" alt="">
+                <span>SIKÇA SORULAN SORULAR</span>
+            </div>
+            <div class="access-card">
+                <img src="assets/icon/pc.png" alt="">
+                <span>ONLİNE HİZMETLER</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="emergency-call">
+        <h1 class="emergency-header">Acil Telefon Numaraları</h1>
+        <div class="emergency-list">
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/fire-hydrant.png" alt="">
+                    <span>İTFAİYE</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/ambulance.png" alt="">
+                    <span>AMBULANS</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/flash.png" alt="">
+                    <span>ELEKTRİK</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/water-drop.png" alt="">
+                    <span>SU</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/natural-gas.png" alt="">
+                    <span>DOĞALGAZ</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+            <div class="emergency-card">
+                <div class="emergency-box">
+                    <img src="assets/icon/helmet.png" alt="">
+                    <span>OSGB</span>
+                </div>
+                <span class="emergency-number">+90 (322) 394 39 46</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>ADANA AOSB</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Adana Hacı Sabancı Organize Sanayi Müdürlüğü </a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> +90 322 394 54 54</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> +90 322 394 32 18</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope-open"></i> bilgi@adanaorganize.org.tr</a></li>
+                        <li><a href="#"><i class="fa-solid fa-address-card"></i> İletişim bilgileri</a></li>
+                        <li><a href="#"><i class="fa-solid fa-address-card"></i> İletişim Formu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>AOSB</h4>
+                    <ul>
+                        <li><a href="#">Hakkımızda </a></li>
+                        <li><a href="#">Başkanın Mesajı</a></li>
+                        <li><a href="#">Politikalarımız</a></li>
+                        <li><a href="#">Yerleşim Planı</a></li>
+                        <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="#">Tüketimlerimiz</a></li>
+                        <li><a href="#">Eğitim Kurumları</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Yönetim</h4>
+                    <ul>
+                        <li><a href="#">Yönetim Kurulu </a></li>
+                        <li><a href="#">Denetim Kurulu</a></li>
+                        <li><a href="#">Bölge Müdürlüğü</a></li>
+                        <li><a href="#">Hizmet Binaları</a></li>
+                        <li><a href="#">Organizasyon Şeması</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Medya</h4>
+                    <ul>
+                        <li><a href="#">Tanıtım Filmleri </a></li>
+                        <li><a href="#">E-Katalog</a></li>
+                        <li><a href="#">Formlar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kalite</h4>
+                    <ul>
+                        <li><a href="#">TS EN ISO 50001 </a></li>
+                        <li><a href="#">KALDER</a></li>
+                        <li><a href="#">Bilgi Güvenliği Politikası</a></li>
+                        <li><a href="#">Sertifikalarımız</a></li>
+                        <li><a href="#">Anketler</a></li>
+                        <li><a href="#">Öneri Formu</a></li>
+                        <li><a href="#">Kişisel Verilerin Korunması</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/tranding-slider.js"></script>
+
+
+</body>
+
+</html>

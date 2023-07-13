@@ -1,0 +1,39 @@
+#statistics{
+    height: 80vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to left top,var(--main-color),#000);
+    /* background-image: url("../assets/img/rakamlarla-aosb.png");
+    background-size: contain; */
+}
+.sta-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.statistic-header{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--main-color);
+    padding: 2rem 0;
+}
+.sta-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1em;
+}
+.sta-card p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sta-card img{
+    width: 190px;
+    height: 190px;
+}

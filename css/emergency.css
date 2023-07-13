@@ -1,0 +1,41 @@
+#emergency-call{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1em;
+    
+}
+.emergency-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: .7em;
+}
+.emergency-box img{
+    width: 100px;
+    height: 100px;
+}
+.emergency-header{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.emergency-number{
+    text-align: center;
+    text-decoration: underline;
+}
+.emergency-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emergency-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: .3em;
+}

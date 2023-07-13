@@ -1,0 +1,24 @@
+#firm-search{
+    background: var(--main-color);
+    color: #fff;
+    width: 45em;
+    padding: 1em;
+    border-radius: 5px;
+}
+#firms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#firm-search::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.firm-button{
+    width: 20em;
+    padding: 1em;
+    margin-top: 10px;
+    background: var(--main-color);
+    color: #fff;
+}

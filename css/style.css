@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#deneme {
+    position: relative;
+    height: 100%;
+    background: transparent;
+    font-size: 14px;
+    color: #000;
+}
+
+swiper-container {
+    width: 100%;
+    height: 500px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+swiper-slide p{
+    position: absolute;
+    bottom: 60px;
+    left:120px; 
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    background: black;
+    max-width: 350px;
+    border-radius: 5px;
+    
+}

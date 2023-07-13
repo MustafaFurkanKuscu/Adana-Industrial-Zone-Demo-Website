@@ -1,0 +1,151 @@
+#header{
+    position: absolute;
+    width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 10px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s ease;
+}
+
+#header .logo img{
+    width: 10em;
+}
+#header .navbar ul{
+    list-style: none;
+}
+#header .navbar ul li{
+    position: relative;
+    float: left;
+}
+#header .navbar ul li a{
+    font-size: 1em;
+    padding: 1em;
+    font-weight: 350;
+    color: var(--text-color);
+    display: block;
+    transition: 0.3s ease;
+}
+#header .navbar ul li a:before{
+    content: '';
+    position: absolute;
+    background: var(--main-color);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+#header .navbar ul li a:hover:before{
+    width: 100%;
+}
+
+#header .navbar ul li a:hover{
+    
+    color: var(--main-color);
+    
+}
+#header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 220px;
+    background: #fff;
+    display: none;
+}
+#header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+#header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+#header .navbar ul li:focus-within >ul,
+#header .navbar ul li:hover >ul{
+    display: initial;
+}
+#menu-bar{
+    display: none;
+}
+#header label{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    color: var(--main-color);
+}
+
+
+@media(max-width:1040px){
+    #header{
+        padding: 10px;
+    }
+    #header label{
+        display: none;
+    }
+    #header .navbar{
+        /* position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none; */
+
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, .5);
+    }
+    #header .navbar.passive{
+        display: none;
+    }
+    #header .navbar ul li a:hover{
+        color: red;
+    }
+    #header .navbar ul li a{
+        color: #fff;
+        font-size: 1.1em;
+        margin: 5px;
+    }
+    #header .navbar ul li a:before{
+        background: white;
+        height: 5px;
+    }
+    #header .navbar ul {
+        background: var(--main-color);
+        width: 600px;
+        max-width:  600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1/20%);
+        
+    }
+    /* #header .navbar ul li{
+        width: 100%;
+    }
+    #header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    #header .navbar ul li ul li{
+        background: #eee;
+    }
+    #menu-bar:checked~ .navbar{
+        display: initial;
+    } */
+}

@@ -1,0 +1,69 @@
+#news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#news img {
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+
+#news .container {
+    display: flex;
+}
+#news .card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+#news .intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -600px;
+    background: rgb(27, 27, 27,.5);
+    color: #fff;
+}
+#news h1{
+    margin: 10px;
+    font-size: 40px;
+}
+#news p{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+#news .card:hover{
+    cursor: pointer;
+}
+#news .card:hover .intro{
+    height: 200px;
+    background: black;
+}
+#news .card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.news-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    width: 20em;
+    height: 2em;
+    margin-left: 40%;
+    border-radius: 1em;
+    color: #fff;
+    gap: 1em;
+    cursor: pointer;
+}
+.news-button:hover{
+    background: linear-gradient(to left top,var(--main-color),#2f80cc);;
+}
